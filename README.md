@@ -10,7 +10,7 @@ python allc2mat.new.py allc_sample.tsv.gz #cpus regions.bed
 ```
 It requires the bed file to be sorted, and allc file need to be put in the same directory with allc index file. The output of allc2mat.new.py includes the following two files.
 
-### sample.mC.txt
+### sample_region.mC.txt
 each rows is a region from the input bed file
 
 each columns are
@@ -27,7 +27,7 @@ each columns are
 
 6. mCG/CG ratio
 
-### sample.tot.txt
+### sample_region.tot.txt
 each columns are
 
 1. sample name
