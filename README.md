@@ -1,1 +1,22 @@
 # snmC-seq2
+
+the output format of allc2mat.new.py
+In *.mC.txt, each rows is a region from the input bed file, each columns are
+mCH basecalls
+CH basecalls
+mCH/CH ratio
+mCG basecalls
+CG basecalls
+mCG/CG ratio
+
+In *.tot.txt, each columns are
+sample name
+global mCCC basecalls
+global CCC basecalls
+global mCH basecalls
+global CH basecalls
+global mCG basecalls
+global CG basecalls
+global mCCC/CCC ratio
+global mCH/CH ratio
+global mCG/CG ratio
