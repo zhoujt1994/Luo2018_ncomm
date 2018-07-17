@@ -4,19 +4,14 @@ snmC-seq2 is an improved technique for single nucleus methylome sequencing. The 
 
 ## Computing bin/gene level methylation ratio
 
-The scirpt allc2mat.new.py is for calculating bin/gene level methylation ratio.
-
-the output format of allc2mat.new.py
+The scirpt allc2mat.new.py is for calculating bin/gene level methylation ratio. The output of allc2mat.new.py includes the following two files.
 
 ### sample.mC.txt
 each rows is a region from the input bed file
 
 each columns are
-
 mCH basecalls
-
 CH basecalls
-
 mCH/CH ratio
 
 mCG basecalls
